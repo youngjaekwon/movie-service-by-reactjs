@@ -4,7 +4,7 @@ import Detail from "./routes/Detail";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/movie-service-by-reactjs">
       <Routes>
         <Route path="/movie/:id" element={<Detail />} />
         <Route path="/" element={<Home />} />
